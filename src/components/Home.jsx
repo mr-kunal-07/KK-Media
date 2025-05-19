@@ -9,14 +9,14 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="relative h-[90vh] flex flex-col justify-center w-screen mt-[-60px] md:mt-0 items-center bg-gradient-to-b from-[#FFF4EB] to-white overflow-hidden select-none px-4">
+        <div className="relative flex flex-col justify-center mb-20 w-full items-center bg-gradient-to-b from-[#FFF4EB] to-white overflow-hidden select-none px-4">
             {/* Decorative Floating PNGs */}
             <img
                 src="/arrow.png"
                 alt="Arrow"
                 data-aos="fade-up"
                 data-aos-delay="200"
-                className="absolute top-[30%] left-[10%] w-8 md:w-12 animate-float-slow opacity-70 pointer-events-none"
+                className="absolute top-[55%] left-[15%] w-8 md:w-12 animate-float-slow opacity-70 pointer-events-none"
             />
             <img
                 src="/dot-arrow.png"
@@ -27,9 +27,9 @@ const Home = () => {
             />
 
             {/* Main Content */}
-            <div className='flex flex-col justify-center items-center '>
+            <div className='flex flex-col justify-center mt-20 items-center '>
                 <h1
-                    className="aos-init text-3xl md:text-6xl font-sans font-bold mt-[-60px] md:mt-[-100px] leading-tight text-center relative z-10"
+                    className="aos-init text-3xl md:text-6xl font-sans font-bold leading-tight text-center relative z-10"
                     data-aos="fade-up"
                 >
                     Build Your First{' '}

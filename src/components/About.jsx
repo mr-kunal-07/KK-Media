@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <section className="text-center py-16 px-5 bg-gray-100">
+        <section className="text-center py-16 px-5 bg-white">
             <h2 className="text-black text-3xl md:text-4xl bubblegum-sans-regular font-semibold mb-5">About Us</h2>
 
             <div className="relative w-full max-w-4xl mx-auto my-10 z-50">
@@ -21,4 +21,6 @@ const About = () => {
 };
 
 export default About;
+
+
   
